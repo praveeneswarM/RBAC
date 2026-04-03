@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   namespace: praveen-ns
-  name: pod-manager
+  name: praveen-manager
 rules:
 - apiGroups: [""]
   resources: ["pods"]
