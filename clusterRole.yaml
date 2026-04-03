@@ -5,5 +5,5 @@ metadata:
   namespace: praveen-ns
 rules:
 - apiGroups: [""]
-  resources: ["nodes","namespace","pods"]
+  resources: ["nodes","namespaces","pods"]
   verbs: ["get", "list", "watch"]
