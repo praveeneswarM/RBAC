@@ -4,6 +4,6 @@ metadata:
   name: testgroup-role 
   namespace: praveen-ns
 rules:
-  - apiGroup: [""]
+  - apiGroups: [""]
     resources: ["services"]
     verbs: ["get", "list", "watch", "create", "delete"]

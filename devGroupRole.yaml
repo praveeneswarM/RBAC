@@ -4,6 +4,6 @@ metadata:
   name: devgroup-role 
   namespace: praveen-ns
 rules:
-  - apiGroup: [""]
+  - apiGroups: [""]
     resources: ["pods","deployments"]
     verbs: ["get", "list", "watch", "create", "delete"]
