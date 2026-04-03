@@ -7,6 +7,10 @@ subjects:
 - kind: User
   name: raj
   apiGroup: rbac.authorization.k8s.io
+- kind: ServiceAccount
+  name: praveen-sa 
+  namespace: praveen-ns
+  apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
   name: pod-manager
